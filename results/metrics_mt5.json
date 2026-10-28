@@ -1,0 +1,12 @@
+{
+  "Model": "mT5-small (google/mt5-small)",
+  "Architecture": "Encoder-Decoder",
+  "Adaptation": "Fine-Tuned Transformer Layers (3 Epochs)",
+  "Total_Params": 300176768,
+  "Trainable_Params": 44062080,
+  "Train_Time_Sec": 334.47,
+  "Inference_Total_Sec": 5.54,
+  "Latency_ms_per_sent": 27.68,
+  "BLEU": 6.03,
+  "chrF": 25.02
+}

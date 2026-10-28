@@ -1,0 +1,12 @@
+{
+  "Model": "Basic Transformer (Scratch)",
+  "Architecture": "Encoder-Decoder",
+  "Adaptation": "Trained from Scratch (12 Epochs)",
+  "Total_Params": 10106688,
+  "Trainable_Params": 10106688,
+  "Train_Time_Sec": 98.03,
+  "Inference_Total_Sec": 11.89,
+  "Latency_ms_per_sent": 59.43,
+  "BLEU": 1.52,
+  "chrF": 15.27
+}

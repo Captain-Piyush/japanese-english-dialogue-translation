@@ -1,0 +1,5 @@
+Model,Architecture,Adaptation,Total_Params,Trainable_Params,Train_Time_Sec,Inference_Total_Sec,Latency_ms_per_sent,BLEU,chrF
+Basic Transformer (Scratch),Encoder-Decoder,Trained from Scratch (12 Epochs),10106688,10106688,98.03,11.89,59.43,1.52,15.27
+mT5-small (google/mt5-small),Encoder-Decoder,Fine-Tuned Transformer Layers (3 Epochs),300176768,44062080,334.47,5.54,27.68,6.03,25.02
+LLaMA-3.2-1B-Instruct,Decoder-Only (Causal LM),4-bit QLoRA + Instruction Prompting,1235814400,11272192,249.62,22.14,110.7,11.65,32.83
+Gemma-2-2B-Instruct,Decoder-Only (Causal LM),Few-Shot In-Context Prompting (0-grad),2611532800,0,0.0,130.01,650.04,14.38,38.78

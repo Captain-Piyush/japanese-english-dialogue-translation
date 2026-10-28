@@ -1,0 +1,12 @@
+{
+  "Model": "LLaMA-3.2-1B-Instruct",
+  "Architecture": "Decoder-Only (Causal LM)",
+  "Adaptation": "4-bit QLoRA + Instruction Prompting",
+  "Total_Params": 1235814400,
+  "Trainable_Params": 11272192,
+  "Train_Time_Sec": 249.62,
+  "Inference_Total_Sec": 22.14,
+  "Latency_ms_per_sent": 110.7,
+  "BLEU": 11.65,
+  "chrF": 32.83
+}

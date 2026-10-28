@@ -1,0 +1,30 @@
+[
+  {
+    "Temperature": 0.0,
+    "Decoding_Mode": "Greedy (Deterministic)",
+    "BLEU": 12.3,
+    "chrF": 32.5,
+    "Sample_Output_0": "I will be out for two hours and will come back."
+  },
+  {
+    "Temperature": 0.3,
+    "Decoding_Mode": "Nucleus Sampling (T=0.3)",
+    "BLEU": 12.93,
+    "chrF": 33.08,
+    "Sample_Output_0": "I will be out for another two hours and will come back."
+  },
+  {
+    "Temperature": 0.7,
+    "Decoding_Mode": "Nucleus Sampling (T=0.7)",
+    "BLEU": 7.46,
+    "chrF": 27.95,
+    "Sample_Output_0": "I will be out for a two-hour break and come back two hours later."
+  },
+  {
+    "Temperature": 1.0,
+    "Decoding_Mode": "Nucleus Sampling (T=1.0)",
+    "BLEU": 6.44,
+    "chrF": 26.84,
+    "Sample_Output_0": "I will leave for a separate business matter 2 hours after."
+  }
+]
